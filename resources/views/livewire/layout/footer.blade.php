@@ -13,13 +13,16 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Navigation</h2>
                     <ul class="text-gray-600">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline hover:text-primary">Home</a>
+                            <a href="{{ route('home') }}" class="hover:underline hover:text-primary">Home</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline hover:text-primary">Books</a>
+                            <a href="{{ route('books') }}" class="hover:underline hover:text-primary">Books</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="{{ route('genres') }}" class="hover:underline hover:text-primary">Genres</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline hover:text-primary">Categories</a>
+                            <a href="{{ route('categories') }}" class="hover:underline hover:text-primary">Categories</a>
                         </li>
                     </ul>
                 </div>

@@ -204,7 +204,7 @@
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex">
                     <a href="#">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                            src="{{ asset('icon.jpeg') }}"
                             alt="Razenry Avatar">
                     </a>
                     <div class="p-5">
@@ -247,14 +247,14 @@
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex">
                     <a href="#">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                            src="{{ asset('icon2.jpeg') }}"
                             alt="Shydrangea Avatar">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900">
-                            <a href="#">Shydrangea.shin</a>
+                            <a href="#">Rils Zyendara Asafel</a>
                         </h3>
-                        <span class="text-gray-500">Frontend Dev & UI/UX Designer</span>
+                        <span class="text-gray-500">Frontend Dev, UI/UX Designer & Project Manager</span>
                         <p class="mt-3 mb-4 font-light text-gray-500">Crafts intuitive reading interfaces that make
                             digital books feel physical and enjoyable.</p>
                         <ul class="flex space-x-4 sm:mt-0">

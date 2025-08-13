@@ -15,7 +15,7 @@
                         Email</label>
                     <button id="dropdown-button" data-dropdown-toggle="dropdown"
                         class="shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100"
-                        type="button">All categories <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                        type="button">Genres <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 1 4 4 4-4" />
@@ -46,7 +46,7 @@
             </form>
 
             <button type="button"
-                class="text-white bg-primary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-4 py-2 text-center">Login</button>
+                class="text-white bg-primary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-4 py-2 text-center">Support</button>
 
             <button data-collapse-toggle="navbar-sticky" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -82,11 +82,6 @@
                         class="@if (request()->routeIs('genres')) block py-2 px-3 text-white bg-primary rounded-sm md:bg-transparent md:text-primary md:p-0 font-bold @else block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 font-bold @endif"
                         aria-current="@if (request()->routeIs('home')) page @else false @endif">Genres</a>
                 </li>
-                <li>
-                    <a href="#"
-                        class="@if (request()->routeIs('support')) block py-2 px-3 text-white bg-primary rounded-sm md:bg-transparent md:text-primary md:p-0 font-bold @else block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 font-bold @endif"
-                        aria-current="@if (request()->routeIs('home')) page @else false @endif">Support</a>
-                </li>
                 <li class="block md:hidden">
                     <form class="max-w-lg mx-auto">
                         <div class="flex">
@@ -94,7 +89,7 @@
                                 Email</label>
                             <button id="dropdown-button" data-dropdown-toggle="dropdown-mobile"
                                 class="shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100"
-                                type="button">All categories <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                type="button">Genres <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 1 4 4 4-4" />
